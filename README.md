@@ -1,16 +1,25 @@
-## Hi there 👋
+# Hi, I'm Faik Emre
 
-<!--
-**partalemre/partalemre** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I build AI-powered software and ship it. Backend developer, CS student at Bilkent University. Previously backend intern at Jotform (a 25M+ user platform), where I worked on RAG features in production: vector databases, embedding pipelines, Gemini API.
 
-Here are some ideas to get you started:
+## What I'm building
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### [BrandLens](https://github.com/partalemre/brandlens)
+
+Point it at any website: it extracts the brand (logo, colors, fonts), indexes the content, and serves an embeddable chat widget that answers with cited sources. FastAPI, Next.js, pgvector, Gemini/OpenAI, with an eval harness for answer faithfulness.
+
+### [ObservAI](https://github.com/partalemre/ObservAI)
+
+Real-time camera analytics with YOLO + Gemini.
+
+## Stack
+
+Python (FastAPI), TypeScript / Next.js, PHP, PostgreSQL / pgvector, LLM integrations (Gemini, OpenAI), Docker
+
+## How I work
+
+End-to-end, in small reviewable milestones. Quality is measured, not assumed: my RAG projects ship with eval harnesses for retrieval hit-rate and answer faithfulness.
+
+## Reach me
+
+femrepartal@gmail.com · [LinkedIn](https://www.linkedin.com/in/femre-partal) · [Upwork](https://www.upwork.com/freelancers/~0124ed5b120edd4a02)
