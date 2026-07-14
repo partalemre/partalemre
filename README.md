@@ -1,6 +1,6 @@
 # Hi, I'm Faik Emre
 
-I build AI-powered software and ship it. Backend developer, CS student at Bilkent University. Previously backend intern at Jotform (a 25M+ user platform), where I worked on RAG features in production: vector databases, embedding pipelines, Gemini API.
+I build AI-powered software and ship it. Backend developer, CTIS graduate from Bilkent University (class of 2026). Previously backend intern at Jotform (a 25M+ user platform), where I worked on RAG features in production: vector databases, embedding pipelines, Gemini API.
 
 ## What I'm building
 
