@@ -10,7 +10,15 @@ Point it at any website: it extracts the brand (logo, colors, fonts), indexes th
 
 ### [ObservAI](https://github.com/partalemre/ObservAI)
 
-Real-time camera analytics with YOLO + Gemini.
+Real-time camera analytics: visitor counting, demographics, and zone tracking. YOLO11 + InsightFace on the vision side, Node.js API, React dashboard.
+
+## Smaller things
+
+- [app-rescue](https://github.com/partalemre/app-rescue) - the audit checklist I run on vibe-coded apps, applied to a real Next.js + Supabase codebase (before/after branches)
+- [integrations-hub](https://github.com/partalemre/integrations-hub) - webhook service: Stripe signature verification, idempotent processing, retries with a dead-letter queue
+- [ops-bot](https://github.com/partalemre/ops-bot) - Discord triage bot: LLM classification with a heuristic fallback, SQLite, daily digests
+- [game-analytics](https://github.com/partalemre/game-analytics) - telemetry simulator plus SQL retention, funnel, and ARPDAU metrics with a small dashboard
+- [proposal-forge](https://github.com/partalemre/proposal-forge) - client brief in, branded DOCX/HTML proposal out
 
 ## Stack
 
