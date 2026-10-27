@@ -1,33 +1,33 @@
-# Hi, I'm Faik Emre
+# Faik Emre Partal
 
-I build AI-powered software and ship it. Backend developer, CTIS graduate from Bilkent University (class of 2026). Previously backend intern at Jotform (a 25M+ user platform), where I worked on RAG features in production: vector databases, embedding pipelines, Gemini API.
+Bilkent CTIS graduate (2026). I work between product and engineering: I figure out what should be built, write it down so a team can build it, and check that what ships actually works. These days most of the building is done by AI coding agents, so a large part of my work is directing them and reviewing what they produce.
 
-## What I'm building
+## Experience
 
-### [BrandLens](https://github.com/partalemre/brandlens)
+**Jotform** · Backend Developer Intern · Aug 2025 – Jan 2026
+- Created and tested a RAG workflow that suggests comment replies in Jotform Inbox; evaluated the AI output and documented edge cases.
+- Contributed to BrandKit, which pulls a brand's logo, colors and fonts from a website URL.
+- Analyzed a competitor's feature through user reviews and helped adapt it for Jotform.
 
-Point it at any website: it extracts the brand (logo, colors, fonts), indexes the content, and serves an embeddable chat widget that answers with cited sources. FastAPI, Next.js, pgvector, Gemini/OpenAI, with an eval harness for answer faithfulness.
+**Scalr** · Product Analyst Intern, remote (US) · Jun 2022 – Sep 2024
+- Analyzed ordering, inventory, payroll and finance workflows for coffee and restaurant chains, and drafted product requirements.
+- Supported expense-tracking automation (Ottimate, PlateIQ) that flagged unusual card transactions.
+- Helped consolidate internal tools into Scalr Cockpit, used across multiple clients.
 
-### [ObservAI](https://github.com/partalemre/ObservAI)
+## Selected work
 
-Real-time camera analytics: visitor counting, demographics, and zone tracking. YOLO11 + InsightFace on the vision side, Node.js API, React dashboard.
+**[MODZ](https://github.com/partalemre/MODZ)**: 19 plugins for Claude Code in one live panel. When AI agents do the work, the hard part is seeing what they are doing. MODZ shows each subagent's progress and cost, file changes, plans and tests, and holds risky commands (`rm -rf`, `git reset --hard`) until a person approves them. I designed and shipped it with Claude Code; most commits are co-authored with it.
 
-## Smaller things
+**[ObservAI](https://github.com/partalemre/ObservAI)**: my senior project. I coordinated a five-person team for a year (scope, requirements, sprint follow-up, project documents, delivery). The product is camera analytics for cafés: visitor counts, demographics, zones, heatmaps, and plain-language questions over the data. We validated it with 50 end-to-end scenarios.
 
-- [app-rescue](https://github.com/partalemre/app-rescue) - the audit checklist I run on vibe-coded apps, applied to a real Next.js + Supabase codebase (before/after branches)
-- [integrations-hub](https://github.com/partalemre/integrations-hub) - webhook service: Stripe signature verification, idempotent processing, retries with a dead-letter queue
-- [ops-bot](https://github.com/partalemre/ops-bot) - Discord triage bot: LLM classification with a heuristic fallback, SQLite, daily digests
-- [game-analytics](https://github.com/partalemre/game-analytics) - telemetry simulator plus SQL retention, funnel, and ARPDAU metrics with a small dashboard
-- [proposal-forge](https://github.com/partalemre/proposal-forge) - client brief in, branded DOCX/HTML proposal out
+**[Transceiver](https://github.com/partalemre/transceiver)** (beta): team chat inside Claude Code. One teammate's agent can ask another's machine for status, a diff or test results without spending tokens.
 
-## Stack
+## How I work with AI
 
-Python (FastAPI), TypeScript / Next.js, PHP, PostgreSQL / pgvector, LLM integrations (Gemini, OpenAI), Docker
+- Specs and acceptance criteria first, then agents build against them.
+- No output goes unchecked: tests, eval sets, edge-case logs.
+- When agents run in parallel, I want to see them. That is why I built MODZ.
 
-## How I work
+## Contact
 
-End-to-end, in small reviewable milestones. Quality is measured, not assumed: my RAG projects ship with eval harnesses for retrieval hit-rate and answer faithfulness.
-
-## Reach me
-
-femrepartal@gmail.com · [LinkedIn](https://www.linkedin.com/in/femre-partal) · [Upwork](https://www.upwork.com/freelancers/~0124ed5b120edd4a02)
+femrepartal@gmail.com · [LinkedIn](https://www.linkedin.com/in/femre-partal)
